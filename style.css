@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    background: #FAFAFA;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    position: relative;
+    margin: 15px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 5vw;
+
+}
+
+.navbar__logo {
+    position: absolute;
+    margin-right: 225px;
+    margin-top: 10px;
+}
+
+.navbar__title {
+    margin-top: 10px;
+}
+
+.navbar__search-box {
+    margin-top: 50px;
+}
+
+.navbar__search-box {
+    position: relative;
+    display: flex;
+}
+
+.search__box-input {
+    width: 315px;
+    height: 48px;
+    border: 2px solid white;
+    padding: 0 20px;
+    font-size: 16px;
+    border-radius: 5px 0 0 5px;
+}
+
+.search__box-btn {
+    background: #fff;
+    border: none;
+    border-radius:0 5px 5px 0;
+    cursor: pointer;
+}
+
+.search__btn-img {
+    padding-right: 10px;
+}
+
+.video__list {
+    position: relative;
+    align-items: center;
+    margin-top: 60px;
+    height: 450px;
+    width: 370px;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.video__list-item {
+    margin: 5px 18px;
+    max-height: 106px;
+    max-width: 340px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.list__item-content {
+    width: 200px;
+    padding: 14px 6px 24px 8px;
+}
+
+.item__content-thumbnail {
+    width: 132px;
+    height: 74px;
+    padding: 8px 6px 1px 8px;
+    cursor: pointer;
+}
+
+.item__content-icon {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+}
+
+.item__content-info {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    cursor: pointer;
+}
+
+.item__content-name {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 10px;
+    color: #9499A6;
+}
+
+.container__btn {
+    margin-top: 620px;
+}
+
+.container__btn-next {
+    position: relative;
+    left: 160px;
+}
+
+.container__btn-prev {
+    position: relative;
+    right: 160px;
+}
